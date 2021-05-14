@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
     s.summary      = "A brief description of MyFramework project."
     s.description  = "An extended description of MyFramework project."
 
-    s.homepage     = "http://your.homepage/here"
+    s.homepage     = "http://www.bodyvolume.com"
     s.license = { :type => 'Copyright', :text => "2021" }
     s.author             = { "$(git config user.name)" => "$(git config user.email)" }
     s.source       = { :git => "https://SelectResearch@dev.azure.com/SelectResearch/Research/_git/ExampleFrameworkDistribution", :tag => "#{s.version}" }
