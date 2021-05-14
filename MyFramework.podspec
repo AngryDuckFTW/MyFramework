@@ -1,16 +1,11 @@
 Pod::Spec.new do |s|
-    s.name         = "ExampleSDK"
+    s.name         = "MyFramework"
     s.version      = "0.0.1"
     s.summary      = "A brief description of MyFramework project."
-    s.description  = <<-DESC
-    An extended description of MyFramework project.
-    DESC
+    s.description  = "An extended description of MyFramework project."
+
     s.homepage     = "http://your.homepage/here"
-    s.license = { :type => 'Copyright', :text => <<-LICENSE
-                   Copyright 2018
-                   Permission is granted to...
-                  LICENSE
-                }
+    s.license = { :type => 'Copyright', :text => "2021" }
     s.author             = { "$(git config user.name)" => "$(git config user.email)" }
     s.source       = { :git => "https://SelectResearch@dev.azure.com/SelectResearch/Research/_git/ExampleFrameworkDistribution", :tag => "#{s.version}" }
     s.public_header_files = "ExampleSDK.framework/Headers/*.h"
