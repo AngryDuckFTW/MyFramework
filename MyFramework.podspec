@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "MyFramework"
-    s.version      = "0.0.2"
+    s.version      = "0.0.3"
     s.summary      = "A brief description of MyFramework project."
     s.description  = "An extended description of MyFramework project."
 
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/AngryDuckFTW/MyFramework.git", :tag => "#{s.version}" }
     s.public_header_files = "ExampleSDK.framework/Headers/*.h"
     s.source_files = "ExampleSDK.framework/Headers/*.h"
-    s.vendored_frameworks = "ExampleSDK.framework"
+    s.vendored_frameworks = "ExampleSDK.xcframework"
     s.platform = :ios
     s.swift_version = "5.4"
     s.ios.deployment_target  = '12.0'
