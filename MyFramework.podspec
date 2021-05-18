@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "MyFramework"
-    s.version      = "0.0.1"
+    s.version      = "0.0.2"
     s.summary      = "A brief description of MyFramework project."
     s.description  = "An extended description of MyFramework project."
 
